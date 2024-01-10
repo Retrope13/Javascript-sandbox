@@ -1,0 +1,12 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "a sandbox for me",
+  "main": "main.js",
+  "scripts": {
+    "test": "try",
+    "start": "electron ."
+  },
+  "author": "Sam McKay",
+  "license": "ISC"
+}
