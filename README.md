@@ -26,3 +26,5 @@ This creates a distributable using forge:
 ### `Desktop\Coding\JSApp Sandbox\Javascript-sandbox\my-electron-app\out\make\squirrel.windows\x64\my-electron-app-1.0.0 Setup.exe`
 
 Once you click on the .exe it'll install and run the offline app. It uses an offline system of React to generate the app assets
+
+If you're getting a weird error then open task manager and see if there are background instances still running. If there are terminate them.
