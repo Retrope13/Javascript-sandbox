@@ -1,2 +1,5 @@
-my-electron-app/out/
-my-electron-app/node_modules/
+# Node.js
+my-app/node_modules/
+
+#Git
+README.md

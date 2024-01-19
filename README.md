@@ -1,30 +1,21 @@
-# Javascript-sandbox
+# Javascript Sandbox
 
-Recently I've been playing a game that was developed in JS with a very nice UI. I've been looking for a language or library that will help me develop a satisfying and attractive UI. This is a place to let me test stuff.
+I finally got everything working in a robust way. Originally I was trying to use standalone electron but the issue with that was there was limited documentation on how to facilitate the communication between html and js for an application like that. Instead I did more research and found a way to create a local server and use that to use the react components.
 
-## To package and distribute this application
+# To start the hot reloading electron app:
 
-This will install electron forge which is the easiest way to distribute a new app
-`npm install --save-dev @electron-forge/cli`
+`npm start`
 
-This will import electron forge duh:
-`npx electron-forge import`
+so much easier than what I was doing.
 
-This creates a distributable using forge:
+# To create an exe of this:
+
 `npm run make`
 
-# To make a live development build:
+The exe will be in:
 
-`npx electron main.js`
+`my-app\out\my-app-win32-x64\my-app.exe`
 
-## To push changes
+The setup exe will be in:
 
-`view -> force reload`
-
-# At the end of the creation of the distributable you can go to:
-
-### `Desktop\Coding\JSApp Sandbox\Javascript-sandbox\my-electron-app\out\make\squirrel.windows\x64\my-electron-app-1.0.0 Setup.exe`
-
-Once you click on the .exe it'll install and run the offline app. It uses an offline system of React to generate the app assets
-
-If you're getting a weird error then open task manager and see if there are background instances still running. If there are terminate them.
+`my-app\out\make\squirrel.windows\x64\my-app-1.0.0 Setup.exe`
